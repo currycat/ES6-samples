@@ -1,3 +1,5 @@
+'use strict';
+
 import Greeter from './greeter';
 import ConsoleOutputStream from './console-output-stream';
 const consoleOutputStream = ConsoleOutputStream();

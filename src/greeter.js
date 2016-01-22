@@ -1,4 +1,6 @@
 // greeter.js
+'use strict';
+
 export default (outputStream) => {
   let _message = 'Hello World!';
   return {
@@ -12,4 +14,4 @@ export default (outputStream) => {
       return _message;
     }
   };
-}
+};
